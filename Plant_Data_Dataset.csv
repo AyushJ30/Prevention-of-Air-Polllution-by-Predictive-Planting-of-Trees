@@ -1,0 +1,16 @@
+Plant_Name,Pollutants_Absorbed,Native_Region,Best_Used_For,Max_Height_m
+Neem Tree,"SO2, NO2, CO, PM","India, Tropical","Outdoor, Urban Areas",20.0
+Banyan Tree,"CO, SO2, PM",Indian Subcontinent,"Outdoor, Urban Areas",30.0
+Pine Tree,"PM, NO2, SO2, CO",Northern Hemisphere,"Outdoor, Temperate",35.0
+Eucalyptus,"CO, SO2, O3",Australia,"Outdoor, Urban Areas",50.0
+Aloe Vera,"Formaldehyde, Benzene, CO2",Arabian Peninsula,"Indoor, Semi-Arid",1.0
+Spider Plant,"CO, PM, Formaldehyde",Southern Africa,"Indoor, Urban Areas",0.6
+Weeping Fig,"Formaldehyde, Xylene, Toluene",Southeast Asia,"Indoor, Urban Areas",2.0
+English Ivy,"Benzene, Formaldehyde, CO","Europe, Western Asia",Indoor and Urban Areas,15.0
+Tulsi,"PM, SO2, NO2",Indian Subcontinent,"Outdoor, Urban Areas",0.6
+Bamboo Palm,"Benzene, Formaldehyde, CO",Central and South America,Indoor and Outdoor,2.5
+Golden Pothos,"CO, Formaldehyde, Benzene",Southeast Asia,"Indoor, Urban Areas",1.5
+Peace Lily,"Ammonia, Benzene, Formaldehyde, Trichloroethylene",Central and South America,"Indoor, Urban Areas",1.0
+Boston Fern,"Formaldehyde, Xylene, Toluene",Tropical Regions,"Indoor, Humid",0.8
+Rubber Plant,"CO, Formaldehyde",Southeast Asia,"Indoor, Semi-Tropical",2.0
+Chinese Evergreen,"Benzene, Formaldehyde, CO",Southeast Asia,"Indoor, Urban Areas",1.0
