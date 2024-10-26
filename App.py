@@ -39,7 +39,6 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
-    return jsonify({"prediction": "some result"})
 
     # Extract features for prediction
     features = [data['latitude'], data['longitude'], data['temperature_celsius'], data['wind_mph'],
