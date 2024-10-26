@@ -31,10 +31,15 @@ def recommend_plants(pollutants):
             })
     return recommendations
 
+@app.route('/')
+def home():
+    return "Welcome to the Air Pollution Prediction App!"
+
 # Route to predict pollution and recommend plants
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
+    return jsonify({"prediction": "some result"})
 
     # Extract features for prediction
     features = [data['latitude'], data['longitude'], data['temperature_celsius'], data['wind_mph'],
