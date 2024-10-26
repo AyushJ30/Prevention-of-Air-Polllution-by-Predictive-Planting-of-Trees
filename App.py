@@ -31,9 +31,7 @@ def recommend_plants(pollutants):
             })
     return recommendations
 
-@app.route('/')
-def home():
-    return "Welcome to the Air Pollution Prediction App!"
+
 
 # Route to predict pollution and recommend plants
 @app.route('/predict', methods=['POST'])
