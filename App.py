@@ -2,11 +2,18 @@ from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 import pandas as pd
+import requests
 
 # Initialize the Flask app
 app = Flask(__name__)
 
 # Load the trained model
+url = "https://drive.google.com/drive/folders/1g03KvImOzWTP-i8ohN9ADpoA5xTNkDUL?usp=drive_link"
+response = requests.get(url)
+with open('pollution_model.pkl', 'wb') as f:
+    f.write(response.content)
+
+# Now you can load the model after downloading it
 model = joblib.load('pollution_model.pkl')
 
 # Define plant data for recommendations
