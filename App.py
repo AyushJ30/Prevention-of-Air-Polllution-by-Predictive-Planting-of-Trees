@@ -8,7 +8,7 @@ import requests
 app = Flask(__name__)
 
 # Load the trained model
-url = "https://drive.google.com/drive/my-drive/pollution_model.pkl"
+url = "https://drive.google.com/uc?id=1OFkxEjE3B5dtafPMlBFhT-3NKZGWv7u_"
 response = requests.get(url)
 with open('pollution_model.pkl', 'wb') as f:
     f.write(response.content)
