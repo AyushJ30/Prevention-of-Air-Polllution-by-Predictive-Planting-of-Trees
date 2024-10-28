@@ -31,7 +31,10 @@ def recommend_plants(pollutants):
             })
     return recommendations
 
-
+# Add a home route for the root URL
+@app.route('/')
+def home():
+    return "Welcome to the Air Pollution Prediction and Plant Recommendation API! Use the /predict endpoint to make a POST request."
 
 # Route to predict pollution and recommend plants
 @app.route('/predict', methods=['POST'])
